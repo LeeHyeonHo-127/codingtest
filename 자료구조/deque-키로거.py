@@ -22,3 +22,4 @@ for _ in range(int(input())):
         elif (i == '-' and len(ldq) != 0):
             ldq.pop()
     print(''.join(ldq) + ''.join(reversed(rdq)))
+
