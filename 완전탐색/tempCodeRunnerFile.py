@@ -1,1 +1,1 @@
-permutations
+            print(i)
