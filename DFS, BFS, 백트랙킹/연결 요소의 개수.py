@@ -1,8 +1,8 @@
 # boj 11724
 
 import sys
-sys.setrecursionlimit(10 ** 6)
-input = sys.stdin.readline
+sys.setrecursionlimit(10 ** 6) # 재귀 호출 제한 설정값은 1000이다. 이를 재설정 하기 위한 코드
+input = sys.stdin.readline # 빠른 input을 위한 코드
 
 N, M = map(int, input().split())
 adj = [[False] * (N+1) for _ in range(N+1)]
